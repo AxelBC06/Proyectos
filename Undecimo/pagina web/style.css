@@ -1,0 +1,110 @@
+body {
+    font-size: 125%;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #69c96d;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding-bottom: 80px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #69c96d;
+}
+
+summary {
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+summary:hover {
+    background-color: #e0e0e0;
+}
+
+.consejos {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.consejos li {
+    background-color: #524f4f;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 20px;
+}
+
+.consejos li:nth-child(odd) {
+    background-color: #3f3d3d;
+}
+
+footer {
+    background-color: #69c96d;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.imagen-esquina {
+    position: fixed;
+    bottom: 85px;
+    left: 0px;
+    width: 150px; 
+    height: auto;
+}
+
+.contacto-redes {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(105, 201, 109, 0.9);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+    z-index: 999;
+}
+
+.contacto-redes a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.contacto-redes a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .consejos li {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .imagen-esquina {
+        width: 100px;
+    }
+}
